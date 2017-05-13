@@ -32,7 +32,7 @@ Library I wrote to ease the process of picking Local Government Areas and States
          />
 
 —- In activity/fragment: 
-	First implement the interfaces: 
+	//First implement the interfaces: 
 	
 	public class TestActivity extends AppCompatActivity implements AreaPicker.OnStateSelected, AreaPicker.OnLGASelected, OnFilterInteractionListener 
 
@@ -42,7 +42,7 @@ Library I wrote to ease the process of picking Local Government Areas and States
         mAreaPicker.setmOnStateSelected(this);
         mAreaPicker.setmOnFilterInteractionListener(this);
 
-	Then Go NUTS
+	//Then Go NUTS
 	
 	 @Override
     	public void onFiltersInteraction(State state, LocalGovernmentArea localGovernmentArea) 	{
