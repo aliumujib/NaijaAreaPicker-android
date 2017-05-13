@@ -23,7 +23,9 @@ Library I wrote to ease the process of picking Local Government Areas and States
 
 #How to use
 
-—— In XML:  <com.alium.naijaareapicklib.ui.AreaPicker
+—— In XML:  
+	
+	<com.alium.naijaareapicklib.ui.AreaPicker
         android:id="@+id/area_pucker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -31,6 +33,7 @@ Library I wrote to ease the process of picking Local Government Areas and States
 
 —- In activity/fragment: 
 	First implement the interfaces: 
+	
 	public class TestActivity extends AppCompatActivity implements AreaPicker.OnStateSelected, AreaPicker.OnLGASelected, OnFilterInteractionListener 
 
 	then bind the view
