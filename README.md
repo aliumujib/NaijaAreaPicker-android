@@ -12,14 +12,19 @@ Library I wrote to ease the process of picking Local Government Areas and States
 
 ## Used libraries
 
-— FloatingTextButton : com.github.dimorinny:floating-text-button:0.0.2
+
+- FloatingTextButton : com.github.dimorinny:floating-text-button:0.0.2
 - Android Design Libs
 
 
 ## To do
+
 ** Write attributes for easier use
+
 ** Add ability to remove filters button
+
 ** Add ability to remove LGAs button
+
 ** Get it on jitpack or jcenter so boys can download straight up! Jcenter cost sha .. so una no go vex. I’d like to see what you build with this fish tho
 
 
