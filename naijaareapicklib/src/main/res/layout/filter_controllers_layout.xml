@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:layout_marginBottom="2dp"
+    android:layout_height="wrap_content">
+
+    <com.alium.naijaareapicklib.dialog.SearchableSpinner
+        android:layout_width="wrap_content"
+        android:id="@+id/state_spinner"
+        android:visibility="gone"
+        android:layout_height="wrap_content" />
+
+    <com.alium.naijaareapicklib.dialog.SearchableSpinner
+        android:layout_width="wrap_content"
+        android:id="@+id/lga_spinner"
+        android:visibility="gone"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_margin="2dp"
+        android:id="@+id/state_spinner_link"
+        android:gravity="center"
+        android:background="@drawable/rectangle_rounded_corners_primarycolor_dark"
+        android:text="State"
+        android:layout_weight="1"
+        android:maxLines="1"
+        android:drawableRight="@drawable/ic_chevron_down_white_18dp"
+        android:textColor="@color/white"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_margin="2dp"
+        android:gravity="center"
+        android:id="@+id/lga_spinner_link"
+        android:background="@drawable/rectangle_rounded_corners_primarycolor_dark"
+        android:text="LGA"
+        android:padding="8dp"
+        android:maxLines="1"
+        android:drawableRight="@drawable/ic_chevron_down_white_18dp"
+        android:textColor="@color/white"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_margin="2dp"
+        android:gravity="center"
+        android:background="@drawable/rectangle_rounded_corners_primarycolor_dark"
+        android:text="Filters"
+        android:textColor="@color/white"
+        android:padding="8dp"
+        android:id="@+id/filters"
+        android:maxLines="1"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
