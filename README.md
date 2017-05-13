@@ -1,6 +1,6 @@
 # Naija Area Picker
 
-Library I wrote to ease the process of picking Local Government Areas and States for Nigerian developers … Looks frigging good in an AppBarLayout just under the toolbar .. see them the screenshots for examples.
+Library I wrote to ease the process of picking Local Government Areas and States for Nigerian developers … Looks frigging good in an AppBarLayout just under the toolbar .. see them the screenshots for examples. Swift (iOS) version coming soon!
 
 ## Made by a Nigerian Developer for Nigerian Developers …
 
@@ -20,6 +20,8 @@ Library I wrote to ease the process of picking Local Government Areas and States
 ** Write attributes for easier use
 ** Add ability to remove filters button
 ** Add ability to remove LGAs button
+** Get it on jitpack or jcenter so boys can download straight up! Jcenter cost sha .. so una no go vex. I’d like to see what you build with this fish tho
+
 
 #How to use
 
@@ -32,11 +34,12 @@ Library I wrote to ease the process of picking Local Government Areas and States
          />
 
 —- In activity/fragment: 
+	
 	//First implement the interfaces: 
 	
 	public class TestActivity extends AppCompatActivity implements AreaPicker.OnStateSelected, AreaPicker.OnLGASelected, OnFilterInteractionListener 
 
-	then bind the view
+	//then bind the view
 	mAreaPicker = (AreaPicker) findViewById(R.id.area_pucker);
         mAreaPicker.setmOnLGASelected(this);
         mAreaPicker.setmOnStateSelected(this);
