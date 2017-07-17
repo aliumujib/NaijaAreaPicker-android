@@ -1,8 +1,6 @@
 # Naija Area Picker
 
-Library I wrote to ease the process of picking Local Government Areas and States for Nigerian developers … Looks frigging good in an AppBarLayout just under the toolbar .. see them the screenshots for examples. Swift (iOS) version coming soon!
-
-## Made by a Nigerian Developer for Nigerian Developers …
+Library I wrote to ease the process of picking Local Government Areas and States for Nigerian developers … Looks frigging good in an AppBarLayout just under the toolbar .. see screenshots for examples. Swift (iOS) version coming soon!
 
 <img src="Screens/screenshot.png" width="250" />
 <img src="Screens/screenshot1.png" width="250" />
